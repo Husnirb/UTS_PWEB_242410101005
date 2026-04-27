@@ -3,13 +3,13 @@ Website yang saya buat adalah PawMeal yang mana merupakan dashboard jadwal makan
 ## Screenshot Website
 
 ### 1. Halaman Login
-![Screenshot Login](![alt text](image.png))
+![alt text](image.png)
 
 ### 2. Halaman Dashboard
-![Screenshot Dashboard](![alt text](image-1.png))
+![alt text](image-1.png)
 
 ### 3. Halaman Pengelolaan Data
-![Screenshot Pengelolaan](![alt text](image-2.png))
+![alt text](image-2.png)
 
 ### 4. Halaman Profil
-![Screenshot Profil](![alt text](image-3.png))
+![alt text](image-3.png)
