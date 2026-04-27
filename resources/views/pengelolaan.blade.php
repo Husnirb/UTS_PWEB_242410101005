@@ -41,7 +41,7 @@
                     @elseif($kucing['status'] == 'Belum Makan')
                         <span class="bg-red-100 text-red-700 px-3 py-1 rounded-lg text-xs font-bold border border-red-200 animate-pulse"><i class="fa-solid fa-clock mr-1"></i> Belum</span>
                     @else
-                        <span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-lg text-xs font-bold border border-yellow-200"><i class="fa-solid fa-calendar mr-1"></i> Jadwal</span>
+                        <span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-lg text-xs font-bold border border-yellow-200"><i class="fa-solid fa-calendar mr-1"></i> Terjadwal</span>
                     @endif
                 </div>
 

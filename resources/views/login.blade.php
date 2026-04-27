@@ -20,20 +20,28 @@
         }
     </script>
     <style>
-        * { -webkit-tap-highlight-color: transparent; }
+        /* Reset CSS */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        * { -webkit-tap-highlight-color: transparent; box-sizing: border-box; }
         .pupil-group { transition: transform 0.1s ease-out; transform-origin: center; }
     </style>
 </head>
-<body class="bg-white h-screen w-full flex flex-col overflow-hidden font-sans">
+<body class="bg-pawOrange min-h-screen w-full flex flex-col font-sans overflow-x-hidden">
 
-    <div class="h-[55vh] w-full bg-pawOrange relative flex flex-col justify-between items-center overflow-hidden z-10">
+    <div class="h-[55vh] w-full relative flex flex-col justify-between items-center overflow-hidden z-10 shrink-0">
+
         <div class="mt-8 flex flex-col items-center z-20 text-white">
             <i class="fa-solid fa-paw text-3xl mb-2 animate-bounce"></i>
             <h2 class="font-display font-bold text-2xl tracking-wide">PawMeal</h2>
         </div>
 
-        <div class="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
-            <h1 class="font-display font-bold text-[22vw] md:text-[18vw] text-white/20 select-none leading-none translate-y-12">pawmeal</h1>
+        <div class="absolute inset-0 flex items-center justify-center pointer-events-none z-0 w-full overflow-hidden">
+            <h1 class="font-display font-bold text-[22vw] md:text-[18vw] text-white/20 select-none leading-none translate-y-12 whitespace-nowrap">pawmeal</h1>
         </div>
 
         <div class="relative z-10 w-48 md:w-64">
@@ -58,8 +66,8 @@
         </div>
     </div>
 
-    <div class="h-[45vh] w-full bg-white relative z-20 flex flex-col items-center pt-10 px-6 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.2)] rounded-t-[2.5rem] -mt-6">
-        <div class="max-w-md text-center mb-6">
+    <div class="flex-grow w-full bg-white relative z-20 flex flex-col items-center pt-10 px-6 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.2)] rounded-t-[2.5rem]">
+        <div class="max-w-md text-center mb-6 mt-2">
             <p class="text-pawDarkBlue font-bold text-lg md:text-xl">Pantau jadwal makan si meong hari ini.</p>
             <p class="text-sm text-gray-500 mt-1">Catat porsi, waktu, dan mood anabul dengan mudah.</p>
         </div>

@@ -10,7 +10,7 @@
             <div class="absolute -top-10 -left-10 w-40 h-40 bg-blue-600 rounded-full opacity-50"></div>
 
             <div class="w-32 h-32 bg-white rounded-full flex items-center justify-center text-5xl shadow-xl relative z-10 mb-4 border-4 border-pawOrange text-pawBlue">
-                <i class="fa-solid fa-user-astronaut"></i>
+                <i class="fa-solid fa-user"></i>
             </div>
 
             <h2 class="font-display text-2xl font-bold relative z-10">{{ $username }}</h2>

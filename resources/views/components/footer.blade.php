@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="text-center text-xs text-blue-400">
-            <p>&copy; {{ date('Y') }} PawMeal All Right Reserved.</p>
+            <p>&copy; {{ date('Y') }} PawMeal | All Right Reserved.</p>
         </div>
     </div>
 </footer>

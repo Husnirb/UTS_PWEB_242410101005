@@ -28,7 +28,7 @@
     <div class="bg-pawOrange rounded-3xl p-6 text-white shadow-lg transform hover:scale-[1.02] transition">
         <div class="flex items-center mb-2">
             <i class="fa-solid fa-bell text-2xl mr-2"></i>
-            <h3 class="font-display text-2xl font-bold">Penting!</h3>
+            <h3 class="font-display text-2xl font-bold">Reminder!</h3>
         </div>
         <p class="text-orange-100 mb-5">Waktunya memberikan snack sore untuk Milo pada pukul 16:00.</p>
         <a href="{{ route('pengelolaan', ['username' => $username]) }}" class="inline-block bg-white text-pawOrange font-bold px-4 py-2 rounded-xl text-sm hover:bg-orange-50 transition">Lihat Semua Jadwal <i class="fa-solid fa-chevron-right ml-1 text-xs"></i></a>
