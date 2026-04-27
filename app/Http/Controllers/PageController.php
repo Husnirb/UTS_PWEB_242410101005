@@ -52,7 +52,6 @@ class PageController extends Controller
     {
         $username = $request->query('username', 'Tamu');
 
-        // Data profil dirombak agar lebih relevan
         $profil = [
             'role' => 'Cat Parent',
             'level' => 'Penyayang Anabul',

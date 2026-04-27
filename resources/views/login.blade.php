@@ -20,7 +20,6 @@
         }
     </script>
     <style>
-        /* Reset CSS */
         html, body {
             margin: 0;
             padding: 0;
